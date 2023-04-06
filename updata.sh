@@ -1,0 +1,1 @@
+python updata.py /data/tkd/PL2/checkpoint/V18_VRSTE2/checkpoint_best_loss_20.pth.tar -n PLConvSTE

@@ -1,0 +1,1 @@
+python3 Inference.py --dataset ./dataset/FullTest  --s 2 -p ./PLConvSTE.pth.tar --patch 384 --factormode 0 --factor 0
