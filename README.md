@@ -28,6 +28,10 @@ python3 Inference.py --dataset ./dataset/FullTest  --s 2 -p ./PLConvSTE.pth.tar 
 ```
 More details can refer https://github.com/bytedance/QRAF
 
+## Results
+RD results on 20 test images
+![Variable rate results of QVRF](asserts/PL2VR.png)
+
 
 ## Citation
 ```
