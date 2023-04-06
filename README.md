@@ -19,12 +19,14 @@ pip install einops
 pip install tensorboardX
 ```
 ## Usage
+
+[VariableRateCheckpoint](https://drive.google.com/file/d/1ZKmgrAtL6rdYQAoWmiTNUF11E0090Hlr/view?usp=sharing)
 ### Evaluation
 To evaluate a trained model, the evaluation script is:
 ```bash
-python Inference.py --dataset /path/to/image/folder/ --output_path /path/to/reconstruction/folder/ -m Proposed -p ./updatedCheckpoint/PLConvTrans01.pth.tar --patch 384
+python3 Inference.py --dataset ./dataset/FullTest  --s 2 -p ./PLConvSTE.pth.tar --patch 384 --factormode 0 --factor 0
 ```
-More details can refer to Inference.sh
+More details can refer https://github.com/bytedance/QRAF
 
 
 ## Citation
