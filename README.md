@@ -8,7 +8,6 @@ Pytorch implementation of the paper "Learned Focused Plenoptic Image Compression
  * QVRF：https://github.com/bytedance/QRAF
  
 ## Installation
-
 Install [CompressAI](https://github.com/InterDigitalInc/CompressAI) and the packages required for development.
 ```bash
 conda create -n SADN+QVRF python=3.9
